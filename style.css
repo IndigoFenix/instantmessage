@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+#input{
+    width: 50%;
+    float: left;
+}
+#message{
+    width: calc(100% - 15px);
+    resize: none;
+    margin-top: 5px;
+}
+#messages{
+    width: 50%;
+    float: right;
+    height: 100%;
+    overflow: auto;
+}
+#messages .message{
+    background: #eee;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+#messages .message .username{
+    font-weight: bold;
+    margin-right: 5px;
+}
+#messages .message .message-text{
+
+}
+.clear{
+    clear: both;
+}
